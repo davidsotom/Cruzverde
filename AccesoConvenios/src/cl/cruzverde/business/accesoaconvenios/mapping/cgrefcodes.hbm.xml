@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ <hibernate-mapping> 
+   <class name="cl.sixcon.business.EjHibernate.model.CgRefCodes" table="CG_REF_CODES"> 
+     <meta attribute="cgrefcodes_info"></meta>
+      <id name="rvDomain" column="RV_DOMAIN" type="string"/> 
+        <property name="rvLowValue" column="RV_LOW_VALUE" type="string"/> 
+        <property name="rvHighValue" column="RV_HIGH_VALUE" type="string"/> 
+        <property name="rvAbbreviation" column="RV_ABBREVIATION" type="string"/>
+        <property name="rvMeaning" column="RV_MEANING" type="string"/> 
+    </class> 
+</hibernate-mapping>
