@@ -13,9 +13,9 @@ cp:nombreWs :tp:String
 cp:metodosWs :tp:String
 cp:tipoInvocacion :tp:String :val: hasta 10 caracteres
 cp:fechaConsulta  :tp:Date 
-cp:xmlConsulta   :tp:String
+cp:xmlConsulta   :tp:Sql.Blob
 cp:fechaRespuesta :tp:Date 
-cp:xmlRespuesta  :tp:String
+cp:xmlRespuesta  :tp:Sql.Blob
 cp:indentificadorInterno :tp:Int
 cp:descripcion:tp:String
  * 

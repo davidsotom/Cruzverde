@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ <hibernate-mapping> 
+   <class name="cl.cruzverde.business.accesoaconvenios.model.ScfrBitacoraServicio" table="SCFR_BITACORA_SERVICIO"> 
+     <meta attribute="scfrBitacoraDeServicio_info"></meta>
+      <id name="idBitacoraServicio" column="ID_BITACORA_SERVICIO" type="int"/> 
+        <property name="nombreAplicacion" column="NOMBRE_APLICACION" type="string"/> 
+        <property name="nombreWs" column="NOMBRE_WS" type="string"/> 
+        <property name="metodosWs" column="METODOS_WS" type="string"/>
+        <property name="tipoInvocacion" column="TIPO_INVOCACION " type="string"/> 
+        <property name="fechaConsulta" column="FECHA_CONSULTA" type="date"/>
+        <property name="xmlConsulta" column="XML_CONSULTA" type="blob"/>
+        <property name="fechaRespuesta" column="FECHA_RESPUESTA" type="date"/>
+        <property name="xmlRespuesta" column="XML_RESPUESTA" type="blob"/>
+        <property name="indentificadorInterno" column="INDENTIFICADOR_INTERNO" type="int"/>
+        <property name="descripcion" column="DESCRIPCION" type="string"/>
+    </class> 
+</hibernate-mapping>
